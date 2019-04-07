@@ -28,7 +28,7 @@ For more keybindings see https://codemirror.net/doc/manual.html#keymaps
 
 * [node.js](https://nodejs.org/)
 
-### Installation
+### Install dependencies
 
 ```bash
 npm install
@@ -37,7 +37,7 @@ npm install
 ### Local development
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### Libraries
