@@ -6,7 +6,7 @@ import generalConfigParser from './parsing/generalconfig'
 
 CodeMirror.commands.save = (editor) => {
   var blob = new Blob([editor.getValue()], {type: 'text/plain;charset=utf-8'});
-  FileSaver.saveAs(blob, 'bh_config.cfg')
+  FileSaver.saveAs(blob, 'BH.cfg')
 };
 
 CodeMirror.defineMode('bhconfig', function() {
